@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>login.olp</title>
+   <!-- link i-con -->
+    <link rel="icon" type="image/x-icon" href="css/images/icon.png">
+  <link rel="stylesheet" href="css/login.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="wrapper">
+
+  <div class="login-box">
+    <form action="login.php" method="POST">
+      <h2>Login</h2>
+
+      <div class="input-box">
+        <span class="icon">
+          <ion-icon name="mail"></ion-icon>
+        </span>
+        <input type="email" name ="email" required>
+        <label>Email</label>
+      </div>
+
+      <div class="input-box">
+        <span class="icon">
+          <ion-icon name="lock-closed"></ion-icon>
+        </span>
+        <input type="password" name ="password" required>
+        <label>Password</label>
+      </div>
+
+      <div class="remember-forgot">
+        <label><input type="checkbox"> Remember me</label>
+        <a href="#">Forgot Password?</a>
+      </div>
+
+      <a href="/indix.html"><button >Login</button></a>
+
+      <div class="register-link">
+        <p>Don't have an account? <a target="blank" href="reg.html">Register</a></p>
+      </div>
+    </form>
+  </div>
+
+</div>
+<!-- partial -->
+  <script type="module" src='https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js'></script>
+<script nomodule src='https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js'></script>
+</body>
+</html>

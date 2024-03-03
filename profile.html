@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Profile</title>
+    <link rel="stylesheet" href="css/profile.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="profile.html" class="active">Profile</a></li>
+            </ul>
+        </nav>
+    <header>
+    
+    <main>
+        <section class="profile-info">
+            <h1>Student Profile</h1>
+            <div class="user-details">
+                <img src="profile-picture.jpg" alt="Profile Picture">
+                <div>
+                    <h2 id="username">Username</h2>
+                    <p id="email">Email: user@example.com</p>
+                    <p id="location">Location: City, Country</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="courses-enroled">
+            <h2>Enrolled Courses</h2>
+            <ul id="enrolled-courses">
+                <!-- Courses will be dynamically added here -->
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Your Courses Website</p>
+    </footer>
+
+    <script src="js/profile.js"></script>
+</body>
+</html>
