@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+#blog-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.blog-post {
+    width: 30%;
+    margin-bottom: 20px;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.blog-post h2 {
+    margin-top: 0;
+}
+
+.log-post p {
+    margin-bottom: 10px;
+}
